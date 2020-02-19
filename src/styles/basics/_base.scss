@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: livvic-sBold;
+  line-height: 1.6;
+  color: $clr6;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: rem(60px);
+  margin-bottom: rem(20px);
+}
+
+p {
+  margin: 0 0 rem(12px);
+  max-width: 60ch;
+}
+
+footer {
+    background-color: #002529;
+}
+
+.clean-list {
+  text-decoration: none;
+  list-style: none;
+}
+
+.navbar {
+  background-color: $clr1;
+  .main-nav {
+    .hamburger {
+      @include for-normal-layout {
+        display: none;
+      }
+    }
+    .main-menu {
+      display: none;
+      @include for-normal-layout {
+        display: flex;
+      }
+    }
+  }
+}
+.hero {
+  background-color: $clr1;
+  > * {
+    flex-direction: column;
+    @include for-normal-layout {
+      flex-direction: row;
+    }
+  }
+}
+
+.build {
+  background-color: $clr3;
+  > * {
+    flex-direction: column;
+    @include for-normal-layout {
+      flex-direction: row;
+    }
+  }
+}
+
+.success-story {
+  background-color: $clr2;
+  > * {
+    flex-direction: column;
+    @include for-normal-layout {
+      flex-direction: row;
+    }
+  }
+}
+
+.call-to-action {
+  background-color: $clr4;
+  color: $clr3;
+  > * {
+    flex-direction: column;
+    @include for-normal-layout {
+      flex-direction: row;
+    }
+  }
+}
+
+.clr4 {
+  color: $clr4;
+}
+
+.clr5 {
+  color: $clr5;
+}
+
+.title {
+  font-family: livvic-Bold;
+  font-size: 40px;
+}
+
+.quote-container {
+  flex-direction: column;
+  @include for-normal-layout {
+    flex-direction: row;
+  }
+  .quote:not(:last-child) {
+    padding-inline-end: 20px;
+  }
+}
+
+.attributes {
+  flex-direction: column;
+  @include for-normal-layout {
+    flex-direction: row;
+  }
+}
