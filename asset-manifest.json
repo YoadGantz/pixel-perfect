@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/pixel-perfect/static/css/main.acbcdc70.chunk.css",
+    "main.js": "/pixel-perfect/static/js/main.e949895f.chunk.js",
+    "main.js.map": "/pixel-perfect/static/js/main.e949895f.chunk.js.map",
+    "runtime-main.js": "/pixel-perfect/static/js/runtime-main.837625e7.js",
+    "runtime-main.js.map": "/pixel-perfect/static/js/runtime-main.837625e7.js.map",
+    "static/js/2.80930de6.chunk.js": "/pixel-perfect/static/js/2.80930de6.chunk.js",
+    "static/js/2.80930de6.chunk.js.map": "/pixel-perfect/static/js/2.80930de6.chunk.js.map",
+    "index.html": "/pixel-perfect/index.html",
+    "precache-manifest.d0f66b7ccc9a32568e792ae07b966ea6.js": "/pixel-perfect/precache-manifest.d0f66b7ccc9a32568e792ae07b966ea6.js",
+    "service-worker.js": "/pixel-perfect/service-worker.js",
+    "static/css/main.acbcdc70.chunk.css.map": "/pixel-perfect/static/css/main.acbcdc70.chunk.css.map",
+    "static/js/2.80930de6.chunk.js.LICENSE.txt": "/pixel-perfect/static/js/2.80930de6.chunk.js.LICENSE.txt",
+    "static/media/global.scss": "/pixel-perfect/static/media/Livvic-SemiBold.fe84dbc6.ttf",
+    "static/media/icon-hamburger.svg": "/pixel-perfect/static/media/icon-hamburger.df4410ae.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.837625e7.js",
+    "static/js/2.80930de6.chunk.js",
+    "static/css/main.acbcdc70.chunk.css",
+    "static/js/main.e949895f.chunk.js"
+  ]
+}
